@@ -178,31 +178,31 @@ function cliked(val){
             switch(operat)
         {
             case '+':
-                printl.innerHTML=parseInt(fNum)+
-        parseInt(sNum);
-        fNum=parseInt(fNum)+
-      parseInt(sNum);
+                printl.innerHTML=parseFloat(fNum)+
+        parseFloat(sNum);
+        fNum=parseFloat(fNum)+
+      parseFloat(sNum);
 
                 break;
     
                 case '-':
-                    printl.innerHTML=parseInt(fNum)-
-                    parseInt(sNum);
-                    fNum=parseInt(fNum)
-                  parseInt(sNum);
+                    printl.innerHTML=parseFloat(fNum)-
+                    parseFloat(sNum);
+                    fNum=parseFloat(fNum)-
+                  parseFloat(sNum);
                 break;
     
                 case '*':
-                    printl.innerHTML=parseInt(fNum)*
-                    parseInt(sNum);
-                    fNum=parseInt(fNum)*
-                  parseInt(sNum);
+                    printl.innerHTML=parseFloat(fNum)*
+                    parseFloat(sNum);
+                    fNum=parseFloat(fNum)*
+                  parseFloat(sNum);
                 break;
     
                 case '/':
-                    printl.innerHTML=parseInt(fNum)/
-                    parseInt(sNum);
-                    fNum=parseInt(fNum)/
+                    printl.innerHTML=parseFloat(fNum)/
+                    parseFloat(sNum);
+                    fNum=Float(fNum)/
                   parseInt(sNum);
                 break;
     
