@@ -136,6 +136,7 @@ var sNum;
 var rerult;
 var operat;
 
+
 function cliked(val){
    
    
@@ -171,7 +172,7 @@ function cliked(val){
         parseInt(fNum);
         parseInt(sNum);
         // console.log(typeof sNum);
-
+     
         console.log(typeof operat);
         try{
             switch(operat)
@@ -227,20 +228,23 @@ function cliked(val){
         operation=false;
         printl.innerHTML= '';
     
-        // fNum=parseInt(fNum);
-        // sNum=parseInt(sNum);
-
-        console.log(operat=='+');
        
-        
+        if(sNum!=null)
+        {
+            result();
+        }
        
     }
 
    
 }
 clearall= () =>{
+    fNum=null;
+    sNum=null;
+
     printl.innerHTML= "0"; 
     operation=true;
     label=true;
+    i=1;
 
 }
