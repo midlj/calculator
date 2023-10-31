@@ -202,8 +202,8 @@ function cliked(val){
                 case '/':
                     printl.innerHTML=parseFloat(fNum)/
                     parseFloat(sNum);
-                    fNum=Float(fNum)/
-                  parseInt(sNum);
+                    fNum=parseFloat(fNum)/
+                  parseFloat(sNum);
                 break;
     
                default:
