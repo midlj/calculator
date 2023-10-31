@@ -167,7 +167,7 @@ function cliked(val){
 
     
         
-        
+}       
     result = () =>{
         parseInt(fNum);
         parseInt(sNum);
@@ -215,7 +215,7 @@ function cliked(val){
             printl.innerHTML="Sorry Its not possible";
         }
           operation=true;
-          sNum=0;
+         sNum=null;
       
 
     }
@@ -233,12 +233,14 @@ function cliked(val){
         if(sNum!=null)
         {
             result();
+            label=true;
+            
         }
        
     }
 
    
-}
+
 clearall= () =>{
     fNum=null;
     sNum=null;
@@ -246,6 +248,6 @@ clearall= () =>{
     printl.innerHTML= "0"; 
     operation=true;
     label=true;
-    i=1;
+   
 
 }
