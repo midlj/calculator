@@ -222,7 +222,11 @@ function cliked(val){
         
     operator = (opr) =>{
        
-        if(sNum!=null)
+        
+    
+       
+    
+       if(sNum!=null)
         {
             result();
             label=true;
@@ -230,15 +234,15 @@ function cliked(val){
             //printl.innerHTML= '';
     
             
-        }
-    
-       operat=opr;
+        } else
+       {
+        operat=opr;
         console.log("operator succes");
         operation=false;
         printl.innerHTML= '';
-    
-       
-        
+       }
+     
+        operat=opr;
        
     }
 
