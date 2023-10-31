@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+#Label{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    justify-content: end;
+    align-items: flex-end;
+
+    border-radius: 8px;
+
+   
+}
+.row{
+    margin-top: 10px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    
+}
+.row-1{
+    margin-top: 10px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+    
+}
+#Clear-button{
+   
+    width: 55%;
+
+}
+#button-zero
+{
+  width: 42%;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    
+
+   <Div id="calculater">
+       <div id="Label">
+       0
+       </div>
+       <div class="row-1">
+       <button id="Clear-button" onclick="clearall()">C</button>
+        <button class="ev-button" onclick="operator('+')">+</button>
+       </div>
+
+       <div class="row">
+        <button class="button" onclick="cliked(7)">7</button>
+        <button class="button" onclick="cliked(8)">8</button>
+        <button class="button" onclick="cliked(9)">9</button>
+        <button class="ev-button" onclick="operator('*')">&times;</button>
+       </div>
+
+       <div class="row">
+        <button class="button" onclick="cliked(6)">6</button>
+        <button class="button" onclick="cliked(5)">5</button>
+        <button class="button" onclick="cliked(4)">4</button>
+        <button class="ev-button" onclick="operator('/')">&#247;</button>
+       </div>
+
+       <div class="row">
+        <button class="button" onclick="cliked(1)">1</button>
+        <button class="button" onclick="cliked(2)">2</button>
+        <button class="button" onclick="cliked(3)">3</button>
+        <button class="ev-bottun" onclick="operator('-')">-</button>
+       </div>
+
+       <div class="row">
+           <button class="button" onclick="cliked()">.</button>
+        <button id="button-zero" onclick="cliked(0)">0</button>
+        <button class="ev-bottun" onclick="result()">=</button>
+       </div>
+
+    </Div>
+       
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
