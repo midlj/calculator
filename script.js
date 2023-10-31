@@ -239,7 +239,7 @@ function cliked(val){
         operat=opr;
         console.log("operator succes");
         operation=false;
-        printl.innerHTML= '';
+        label=true;
        }
      
         operat=opr;
