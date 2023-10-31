@@ -215,6 +215,7 @@ function cliked(val){
             printl.innerHTML="Sorry Its not possible";
         }
           operation=true;
+          sNum=0;
       
 
     }
