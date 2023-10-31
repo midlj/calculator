@@ -222,14 +222,6 @@ function cliked(val){
         
     operator = (opr) =>{
        
-        
-    
-       operat=opr;
-        console.log("operator succes");
-        operation=false;
-        printl.innerHTML= '';
-    
-       
         if(sNum!=null)
         {
             result();
@@ -239,6 +231,14 @@ function cliked(val){
     
             
         }
+    
+       operat=opr;
+        console.log("operator succes");
+        operation=false;
+        printl.innerHTML= '';
+    
+       
+        
        
     }
 
