@@ -234,6 +234,9 @@ function cliked(val){
         {
             result();
             label=true;
+            operation=false;
+            //printl.innerHTML= '';
+    
             
         }
        
