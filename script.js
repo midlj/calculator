@@ -178,7 +178,7 @@ function cliked(val){
             switch(operat)
         {
             case '+':
-                printl.innerHTML='='+parseFloat(fNum)+
+                printl.innerHTML=parseFloat(fNum)+
         parseFloat(sNum);
         fNum=parseFloat(fNum)+
       parseFloat(sNum);
@@ -187,21 +187,21 @@ function cliked(val){
                 break;
     
                 case '-':
-                    printl.innerHTML='='+parseFloat(fNum)-
+                    printl.innerHTML=parseFloat(fNum)-
                     parseFloat(sNum);
                     fNum=parseFloat(fNum)-
                   parseFloat(sNum);
                 break;
     
                 case '*':
-                    printl.innerHTML='='+parseFloat(fNum)*
+                    printl.innerHTML=parseFloat(fNum)*
                     parseFloat(sNum);
                     fNum=parseFloat(fNum)*
                   parseFloat(sNum);
                 break;
     
                 case '/':
-                    printl.innerHTML='='+parseFloat(fNum)/
+                    printl.innerHTML=parseFloat(fNum)/
                     parseFloat(sNum);
                     fNum=parseFloat(fNum)/
                   parseFloat(sNum);
