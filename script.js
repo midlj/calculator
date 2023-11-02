@@ -178,10 +178,11 @@ function cliked(val){
             switch(operat)
         {
             case '+':
-                printl.innerHTML='='+parseFloat(fNum)+
-        parseFloat(sNum);
+                //printl.innerHTML='='+parseFloat(fNum)+
+        //parseFloat(sNum);
         fNum=parseFloat(fNum)+
       parseFloat(sNum);
+          printl.innerHTML='='+fnum;
 
                 break;
     
